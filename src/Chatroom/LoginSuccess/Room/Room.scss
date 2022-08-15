@@ -1,0 +1,36 @@
+.room{
+  width: 20%;
+  height: 100%;
+  border-right: 1px solid $dark-color-1;
+  border-bottom: 1px solid $dark-color-1;
+  display: flex;
+  flex-direction: column;
+
+  .room-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $dark-color-1;
+  }
+
+  .room-default{
+    background: $dark-color-3;
+  }
+
+  .room-selected{
+    background: $dark-color-2;
+  }
+
+  .logout-btn{
+    width: 100%;
+    background: $dark-color-1;
+    color: $dark-color-3;
+    // position: absolute;
+    bottom: 0;
+    text-decoration: none;
+    padding: 5px 0;
+    border-radius: $btn-radius;
+    text-align: center;
+    
+  }
+}

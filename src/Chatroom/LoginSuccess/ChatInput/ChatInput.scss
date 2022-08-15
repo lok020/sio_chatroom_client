@@ -1,0 +1,20 @@
+.chat-input{
+  height: 100%;
+  width: inherit;
+  display: flex;
+
+  .input{
+    width: 100%;
+    // height: inherit;
+    border: none;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 0 0 0 $area-radius;
+  }
+
+  .send-btn{
+    height: inherit;
+    font-size: 30px;
+    border-radius: 0 0 $area-radius 0;
+  }
+}

@@ -1,0 +1,29 @@
+.chatbox{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .chatbox-area{
+    height: 90%;
+    width: 90%;
+    background: $dark-accent;
+    border-radius: $area-radius;
+    border: 1px solid $dark-color-1;
+    display: flex;
+    flex-direction: column;
+
+    .upper-area{
+      display: flex;
+      height: 90%;
+      width: 100%;
+    }
+
+    .lower-area{
+      display: flex;
+      height: 10%;
+      width: 100%;
+    }
+  }
+}

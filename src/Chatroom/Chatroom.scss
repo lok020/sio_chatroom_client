@@ -1,0 +1,23 @@
+$dark-background: #19202B;
+$dark-color-1: #977B62;
+$dark-color-2: #FFCB9A;
+$dark-color-3: #ECF5F3;
+$dark-accent: #141922;
+$dark-my-message: #2a9d8f;
+$dark-other-message: #e76f51;
+
+$area-radius: 15px;
+$btn-radius: 10px;
+
+@import './Login/Login.scss';
+@import './LoginSuccess/LoginSuccess.scss';
+@import './LoginSuccess/Room/Room.scss';
+@import './LoginSuccess/ChatLog/Chatlog.scss';
+@import './LoginSuccess/ChatInput/ChatInput.scss';
+
+body{
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+  background: $dark-background;
+}
